@@ -1,0 +1,159 @@
+.wrapper {
+    background-color: #E6DCBF;
+    width: 100%;
+}
+
+
+.navbar { 
+    height: 100px; 
+    width: 100%;
+}
+
+.about {
+    background-color: #E6DCBF;
+    border: 2px solid #A4243B; 
+    height: 300px; 
+    width: 85%;
+    margin-left:70px;
+}
+
+#learnAbout {
+    margin:30px 30px 0px 30px;
+}
+
+.shop{
+    border: 2px solid #A4243B;
+    height: 600px; 
+    width: 45%; 
+    float: left;
+    margin-left:30px;
+}
+
+.calendar {
+    border: 2px solid #A4243B;
+    height: 600px; 
+    width: 45%;
+    float: right;
+    margin-right:30px;
+}
+
+#navOptions{
+    list-style-type:none;
+    margin-top: -65px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #273E47;
+    width: 100%;
+    height: 70px;
+
+}
+
+.navLi{
+    float: right;
+    display: block;
+    padding: 10px 10px;
+    position:relative;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 2px solid #A4243B;
+ 
+}
+
+
+#footer {
+    border: 2px solid #A4243B;
+    height: 100px; 
+    width: 100%;
+    margin-top:650px;
+
+}
+
+#product1 {
+    height: 230px; 
+    width: 80%;
+    position: relative; 
+    margin-top: 20px; 
+    margin-left: 20%;
+}
+
+#product2 {
+    height: 230px; 
+    width: 80%;
+    position: relative;
+    margin-top: 60px; 
+    margin-left: 20%; 
+}
+
+#title{
+    margin-top:5px;
+    margin-left: 10px;
+    color: #E6DCBF;
+}
+
+#shopCards {
+    border: 2px solid #A4243B;
+    background-color: #E6DCBF;
+    font-size: 30px;
+    position: absolute;
+    left:15%;
+    bottom:35%;
+}
+
+#shopBoard {
+    border: 2px solid #A4243B;
+    background-color: #E6DCBF;
+    font-size: 30px; 
+    position: absolute; 
+    left: 15%; 
+    bottom: 35%;
+}
+
+#invite {
+    text-align: center;    
+}
+
+#footerOptions {
+    margin-right: 300px;
+}
+
+#footerLi {
+    float: right;
+    margin-right: 30px;
+    text-align: left;
+}
+
+#calendar {
+    margin-top:40px;
+    margin-left:35%;
+}
+
+#gameNight {
+    font-size: 25px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+#emailUs {
+    border: 2px solid #A4243B;
+    background-color: #E6DCBF;
+    font-size:25px;
+    float:right;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#email {
+    border: 2px solid #A4243B;
+    background-color: #E6DCBF;
+    float: left;
+    margin-left: 20px;
+}
+
+/* fill footer
+fix left margin on shop 
+ask aaron/carolyn about white border on side, i've tried margins and percentages
+does it have to do with the wrapper? tried 100 percent the wrapper 
+checkerboard logo thing??
+*/
